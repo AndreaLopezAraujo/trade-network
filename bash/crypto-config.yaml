@@ -7,10 +7,10 @@
 # ---------------------------------------------------------------------------
 OrdererOrgs:
   # ---------------------------------------------------------------------------
-  # TradeOrderer
+  # ImpreAndes
   # ---------------------------------------------------------------------------
-  - Name: TradeOrderer
-    Domain: trade.com
+  - Name: ImpreAndes
+    Domain: impreAndes.com
     EnableNodeOUs: true
     # ---------------------------------------------------------------------------
     # "Specs" - See PeerOrgs below for complete description
@@ -23,10 +23,10 @@ OrdererOrgs:
 # ---------------------------------------------------------------------------
 PeerOrgs:
   # ---------------------------------------------------------------------------
-  # ExporterOrg
+  # ImpreAndesUsers
   # ---------------------------------------------------------------------------
-  - Name: ExporterOrg
-    Domain: exporterorg.trade.com
+  - Name: ImpreAndesUsers
+    Domain: impreAndesUsers.trade.com
     EnableNodeOUs: true
     # ---------------------------------------------------------------------------
     # "Specs"
@@ -73,20 +73,20 @@ PeerOrgs:
     Users:
       Count: 2
   # ---------------------------------------------------------------------------
-  # ImporterOrg: See "ExporterOrg" for full specification
+  # PrinterOrg: See "ExporterOrg" for full specification
   # ---------------------------------------------------------------------------
-  - Name: ImporterOrg
-    Domain: importerorg.trade.com
+  - Name: PrinterOrg
+    Domain: printerOrg.trade.com
     EnableNodeOUs: true
     Template:
       Count: 1
     Users:
       Count: 2
   # ---------------------------------------------------------------------------
-  # CarrierOrg: See "ExporterOrg" for full specification
+  # SenecasOrg: See "ExporterOrg" for full specification
   # ---------------------------------------------------------------------------
-  - Name: CarrierOrg
-    Domain: carrierorg.trade.com
+  - Name: SenecasOrg
+    Domain: SenecasOrg.trade.com
     EnableNodeOUs: true
     Template:
       Count: 1
